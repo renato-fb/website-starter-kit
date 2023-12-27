@@ -1,0 +1,28 @@
+.heading-primary {
+
+}
+
+
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 1.7;
+    color: $color-grey-dark;
+}
+
+.heading-secondary {
+
+}
+
+.heading-tertiary {
+
+}
+
+.paragraph {
+    font-size: $default-font-size;
+
+    &:not(:last-child) {
+        margin-bottom: 3rem;
+    }
+}
